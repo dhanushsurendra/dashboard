@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <title>Dashboard - Consult</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="tools">
+            <div class="tools__logo-box">
+                <img src="img/logo-01.png" alt="Logo" class="tools__logo">
+                <p class="tools__logo-text">CONSULT</p>
+            </div>
+            <div class="tools__settings">
+                <div class="tools__setting-item-1 tools__active">
+                    <svg class="tools__setting-icon">
+                        <use xlink:href="img/sprite.svg#icon-calendar"></use>
+                    </svg>
+                    <p class="tools__setting-text">Booking</p>
+                </div>
+                <div class="tools__setting-item-1">
+                    <svg class="tools__setting-icon">
+                        <use xlink:href="img/sprite.svg#icon-clock"></use>
+                    </svg>
+                    <p class="tools__setting-text">Team & Availability</p>
+                </div>
+                <div class="tools__setting-item-1">
+                    <svg class="tools__setting-icon">
+                        <use xlink:href="img/sprite.svg#icon-room_service"></use>
+                    </svg>
+                    <p class="tools__setting-text">Services</p>
+                </div>
+                <div class="tools__setting-item-1">
+                    <svg class="tools__setting-icon">
+                        <use xlink:href="img/sprite.svg#icon-users"></use>
+                    </svg>
+                    <p class="tools__setting-text">Clients</p>
+                </div>
+                <div class="tools__setting-item-1 mt">
+                    <svg class="tools__setting-icon">
+                        <use xlink:href="img/sprite.svg#icon-cog"></use>
+                    </svg>
+                    <p class="tools__setting-text">Settings</p>
+                </div>
+                <div class="tools__settings-items">
+                    <p class="tools__setting-text--light">Company Profile</p>
+                    <p class="tools__setting-text--light">Manage Widgets</p>
+                    <p class="tools__setting-text--light">Payment Settings</p>
+                    <p class="tools__setting-text--light">Billing Details</p>
+                </div>
+                <div class="tools__profile">
+                    <img src="img/avatar-2.jpg" alt="Avatar" class="tools__img">
+                    <h2 class="tools__text">Elsie Saunders</h2>
+                    <svg class="tools__icon">
+                        <use xlink:href="img/sprite.svg#icon-keyboard_arrow_down"></use>
+                    </svg>
+                </div>
+            </div>
+        </aside>
+
+        <div class="vertical__line"></div>
+        
+        <header>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__items nav__items--active">Piplines</li>
+                    <li class="nav__items">Codes</li>
+                    <li class="nav__items">Activity</li>
+                </ul>
+                <div class="nav__input-box">
+                    <input type="text" class="nav__input" placeholder="Search">
+                    <svg class="nav__input-icon">
+                        <use xlink:href="img/sprite.svg#icon-search"></use>
+                    </svg>
+                </div>
+                <div class="nav__upgrade">
+                    <svg class="nav__upgrade-icon">
+                        <use xlink:href="img/sprite.svg#icon-upload"></use>
+                    </svg>
+                    <h3 class="nav__upgrade-text">Upgrade account</h3>
+                </div>
+                <div class="nav__notification">
+                    <div class="nav__notification-badge"></div>
+                    <svg class="nav__notification-icon">
+                        <use xlink:href="img/sprite.svg#icon-notifications"></use>
+                    </svg>
+                </div>
+                <div class="nav__chat">
+                    <div class="nav__chat-background"></div>
+                    <svg class="nav__chat-icon">
+                        <use xlink:href="img/sprite.svg#icon-bubbles2"></use>
+                    </svg>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h2 class="heading-2">Billing Details</h2>
+            <div class="card">
+                <div class="card-1">
+                    <div class="card__background"></div>
+                    <img src="img/card.png" alt="Card" class="card__img">
+                </div>
+                <div class="card-2">
+                    <h3 class="heading-3">Next Payment</h3>
+                    <h2 class="heading-2">$50.<span>00</span></h2>
+                    <p>on May 15, 2020</p>
+                    <a href="#" class="card__btn">Manage Payments</a>
+                    <img src="img/folder-icon-01.png" alt="Folder" class="card__icon">
+                </div>
+            </div>
+
+            <h3 class="heading-3">Payment history</h3>
+
+            <div class="accordion">
+                <div class="row__heading">
+                    <ul class="row__heading-list">
+                        <li class="row__heading-items">Amount</li>
+                        <li class="row__heading-items">Status</li>
+                        <li class="row__heading-items">Recepient</li>
+                        <li class="row__heading-items">Date</li>
+                        <li class="row__heading-items">Payment method</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row__acc">
+                <p class="row__acc-para">$65.00</p>
+                <p class="row__acc-pending">Pending</p>
+                <div class="row__acc-name">
+                    <img src="img/avatar-5.jpg" alt="Avatar 1" class="row__acc-img">
+                    <h3 class="row__acc-avatar">Gabriel Bank</h3>
+                </div>
+                <p class="row__acc-date">May 10, 2020</p>
+                <p class="row__acc-para margin">Visa <span>5432</span></p>
+                <div class="row__acc-box">
+                    <svg class="row__acc-icon">
+                        <use xlink:href="img/sprite.svg#icon-keyboard_arrow_down"></use>
+                    </svg>
+                    <div class="row__acc-bg"></div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-0">
+                <div class="col col-1">
+                    <h4>Billing Plan</h4>
+                    <h2>Company Start</h2>
+                    <p>&#9888; 5 team members ($8 / each month)
+                        <br>
+                        + 100 GB extra storage ($25.00)
+                        <br>
+                        + 8 GB extra hours ($2 per hour)
+                    </p>
+                </div>
+
+                <div class="col col-2">
+                    <div class="row__col">
+                        <h4>Status</h4>
+                        <h3>Pending</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>ID number</h4>
+                        <h3>K89RT4I</h3>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row__col">
+                        <h4>Invoice data</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>Date paid</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+                </div>
+
+                <div class="col col-3">
+                    <div class="row__col">
+                        <h4>Amount due</h4>
+                        <h2><b>$250.00</b></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row__acc">
+                <p class="row__acc-para">$67.00</p>
+                <p class="row__acc-pending">Pending</p>
+                <div class="row__acc-name">
+                    <img src="img/avatar-2.jpg" alt="Avatar 1" class="row__acc-img">
+                    <h3 class="row__acc-avatar">Cladia Wetch</h3>
+                </div>
+                <p class="row__acc-date">Apr 10, 2020</p>
+                <p class="row__acc-para margin">Visa <span>5432</span></p>
+                <div class="row__acc-box">
+                    <svg class="row__acc-icon">
+                        <use xlink:href="img/sprite.svg#icon-keyboard_arrow_down"></use>
+                    </svg>
+                    <div class="row__acc-bg"></div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-1">
+                <div class="col col-1">
+                    <h4>Billing Plan</h4>
+                    <h2>Company Start</h2>
+                    <p>&#9888; 5 team members ($8 / each month)
+                        <br>
+                        + 100 GB extra storage ($25.00)
+                        <br>
+                        + 8 GB extra hours ($2 per hour)
+                    </p>
+                </div>
+
+                <div class="col col-2">
+                    <div class="row__col">
+                        <h4>Status</h4>
+                        <h3>Complelted</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>ID number</h4>
+                        <h3>K89RT4I</h3>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row__col">
+                        <h4>Invoice data</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>Date paid</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+                </div>
+
+                <div class="col col-3">
+                    <div class="row__col">
+                        <h4>Amount due</h4>
+                        <h2><b>$250.00</b></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row__acc">
+                <p class="row__acc-para">$45.00</p>
+                <p class="row__acc-pending">Pending</p>
+                <div class="row__acc-name">
+                    <img src="img/avatar-4.jpg" alt="Avatar 1" class="row__acc-img">
+                    <h3 class="row__acc-avatar">Nina Shrmon</h3>
+                </div>
+                <p class="row__acc-date">Mar 10, 2020</p>
+                <p class="row__acc-para margin">Visa <span>5432</span></p>
+                <div class="row__acc-box">
+                    <svg class="row__acc-icon">
+                        <use xlink:href="img/sprite.svg#icon-keyboard_arrow_down"></use>
+                    </svg>
+                    <div class="row__acc-bg"></div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-2">
+                <div class="col col-1">
+                    <h4>Billing Plan</h4>
+                    <h2>Company Start</h2>
+                    <p>&#9888; 5 team members ($8 / each month)
+                        <br>
+                        + 100 GB extra storage ($25.00)
+                        <br>
+                        + 8 GB extra hours ($2 per hour)
+                    </p>
+                </div>
+
+                <div class="col col-2">
+                    <div class="row__col">
+                        <h4>Status</h4>
+                        <h3>Complelted</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>ID number</h4>
+                        <h3>K89RT4I</h3>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row__col">
+                        <h4>Invoice data</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>Date paid</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+                </div>
+
+                <div class="col col-3">
+                    <div class="row__col">
+                        <h4>Amount due</h4>
+                        <h2><b>$250.00</b></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row__acc">
+                <p class="row__acc-para">$80.00</p>
+                <p class="row__acc-pending">Pending</p>
+                <div class="row__acc-name">
+                    <img src="img/ben-parker-OhKElOkQ3RE-unsplash.jpg" alt="Avatar 1" class="row__acc-img">
+                    <h3 class="row__acc-avatar">John Mathew</h3>
+                </div>
+                <p class="row__acc-date">Feb 10, 2020</p>
+                <p class="row__acc-para margin">Visa <span>5432</span></p>
+                <div class="row__acc-box">
+                    <svg class="row__acc-icon">
+                        <use xlink:href="img/sprite.svg#icon-keyboard_arrow_down"></use>
+                    </svg>
+                    <div class="row__acc-bg"></div>
+                </div>
+            </div>
+
+            <div class="panel" id="panel-3">
+                <div class="col col-1">
+                    <h4>Billing Plan</h4>
+                    <h2>Company Start</h2>
+                    <p>&#9888; 5 team members ($8 / each month)
+                        <br>
+                        + 100 GB extra storage ($25.00)
+                        <br>
+                        + 8 GB extra hours ($2 per hour)
+                    </p>
+                </div>
+
+                <div class="col col-2">
+                    <div class="row__col">
+                        <h4>Status</h4>
+                        <h3>Complelted</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>ID number</h4>
+                        <h3>K89RT4I</h3>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row__col">
+                        <h4>Invoice data</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+
+                    <div class="row__col">
+                        <h4>Date paid</h4>
+                        <h3>Apr 10, 2020</h3>
+                    </div>
+                </div>
+
+                <div class="col col-3">
+                    <div class="row__col">
+                        <h4>Amount due</h4>
+                        <h2><b>$250.00</b></h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="vertical__line-2"></div>
+
+        <aside class="right">
+            <div class="row">
+                <div class="card__right-1">
+                    <h2>Payment Information</h2>
+                    <div class="card__right-box">
+                        <img src="img/card-2-01.png" alt="Card" class="card__right-img">
+                        <div>
+                            <h3 class="heading-3--light">Mastercard <span>5432</span></h3>
+                            <h3 class="heading-3--light">Exp date <span>12/24</span></h3>
+                        </div>
+                    </div>
+                    <div class="card__right-edit">
+                        <div class="card__right-edit-light"></div>
+                        <svg class="card__right-edit-icon">
+                            <use xlink:href="img/sprite.svg#icon-pencil"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card__right-2">
+                    <img src="img/avatar-3.jpg" alt="Map">
+                    <div class="card__right-2-box">
+                        <h3>Elsie Saunders</h3>
+                        <p>46 Mill Pond Dr. New Rochelle, NY 10801</p>
+                    </div>
+                    <div class="card__right-edit-2">
+                        <div class="card__right-edit-dark"></div>
+                        <svg class="card__right-edit-icon-2">
+                            <use xlink:href="img/sprite.svg#icon-pencil"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card__right-3">
+                    <h3 class="heading-3--dark">Storage</h3>
+                    <div class="card__right-progress"></div>
+                    <h4>Using 0.65 GB from 1 GB included</h4>
+                    <img src="img/mobile.svg" alt="Mobile">
+                    <h3 class="card__right-3-heading">Expand storage to get more space</h3>
+                    <a href="#" class="card__right-btn">Buy Storage</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script type="text/javascript">
+        var acc = Array.from(document.getElementsByClassName("row__acc-icon"));
+        var bg = Array.from(document.querySelectorAll('.row__acc'));
+
+        (function toggleItem() {
+            acc.forEach((el, index) => {
+                acc[index].addEventListener('click', () => {
+                    var panel = document.getElementById(`panel-${index}`);
+                    if (panel.style.display === 'none') {
+                        panel.style.display = 'flex';
+                        acc[index].classList.add('row__acc-icon-active')
+                        bg[index].style.backgroundColor = '#9cabf3';
+                    } else {
+                        panel.style.display = 'none';
+                        bg[index].style.backgroundColor = '#fff'
+                        acc[index].classList.remove('row__acc-icon-active')
+                    }
+                })
+            });
+        })();
+
+
+        function toggleNav() {
+            const items = Array.from(document.querySelectorAll('.nav__items'));
+
+            function selectItem(e) {
+                removeBorder();
+
+                this.classList.add('nav__items--active');
+            }
+
+            function removeBorder() {
+                items.forEach(item => item.classList.remove('nav__items--active'));
+            }
+
+            items.forEach(item => item.addEventListener('click', selectItem));
+        }
+
+        toggleNav();
+
+
+        function toggleSideNav() {
+            const items = Array.from(document.querySelectorAll('.tools__setting-item-1'));
+
+            function selectItem(e) {
+                removeBorder();
+                this.classList.add('tools__active');
+            }
+
+            function removeBorder() {
+                items.forEach(item => item.classList.remove('tools__active'));
+            }
+
+            items.forEach(items => items.addEventListener('click', selectItem));
+
+    }
+
+    toggleSideNav();
+
+    </script>
+</body>
+
+</html>
