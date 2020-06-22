@@ -65,7 +65,7 @@
         </aside>
 
         <div class="vertical__line"></div>
-        
+
         <header>
             <nav class="nav">
                 <ul class="nav__list">
@@ -426,6 +426,13 @@
     </div>
 
     <script type="text/javascript">
+        console.log(document.documentElement.clientHeight);
+        document.querySelector('.vertical__line').style.height = document.documentElement.scrollHeight + 'px';
+        document.querySelector('.vertical__line-2').style.height = document.documentElement.scrollHeight + 'px';
+
+        //document.querySelectorAll('.vertical__line-2').style.height = document.body.style.height;
+
+
         var acc = Array.from(document.getElementsByClassName("row__acc-icon"));
         var bg = Array.from(document.querySelectorAll('.row__acc'));
 
@@ -480,9 +487,9 @@
 
             items.forEach(items => items.addEventListener('click', selectItem));
 
-    }
+        }
 
-    toggleSideNav();
+        toggleSideNav();
 
     </script>
 </body>

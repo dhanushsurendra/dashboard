@@ -36,7 +36,7 @@ body {
   color: var(--color-grey-dark-1);
   font-family: "Lato", sans-serif, Arial, Helvetica;
   box-sizing: border-box;
-  max-height: inherit;
+  height: 100%;
 }
 
 .container {
@@ -56,15 +56,15 @@ body {
   border-left: 2px solid var(--color-blue);
   position: absolute;
   left: 27rem;
-  min-height: 272vh;
+  height: 0;
 }
 
 .vertical__line-2 {
   border-left: 2px solid var(--color-blue);
   position: absolute;
   right: 34rem;
-  min-height: 272vh;
   top: 7rem;
+  min-height: 0;
 }
 
 .tools__active .tools__setting-icon {
